@@ -10,8 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" href="dist/MarkerCluster.css" />
 	<link rel="stylesheet" href="dist/MarkerCluster.Default.css" />
-	<!--<script src="js/Cookie.js"></script>
-	<script src="js/gitFunctions.js"></script> -->
+	<script src="js/Cookie.js"></script>
+	<script src="js/gitFunctions.js"></script>
 
 </head>
 
@@ -495,27 +495,27 @@
 		})
 		});
 		//初始化筛选器功能
-//		$(document).ready(function () {
-//		if (getToken()) {
-//		console.log("在线模式 token: " + tokenPara)
-//		} else {
-//		console.log("离线模式")
-//		}
-//		$(".con-type-label:first").trigger("click");
-//		$(".reg_log_link").click(function () {
-//		if (getToken()) {
-//		if (window.confirm("确定要注销账户吗?")) {
-//		removeCookie("gitee_Token"); //清空登录缓存
-//		tokenPara = null; //清空登录缓存
-//		canOpenSave = false; //不可打开存档框
-//		$(".savePop").hide(); //关闭存档框
-//		alert("注销成功！");
-//		location.reload()
-//		}
-//		} else {
-//		jumpLogin();
-//		}
-//		})
+		$(document).ready(function () {
+		if (getToken()) {
+		console.log("在线模式 token: " + tokenPara)
+		} else {
+		console.log("离线模式")
+		}
+		$(".con-type-label:first").trigger("click");
+		$(".reg_log_link").click(function () {
+		if (getToken()) {
+		if (window.confirm("确定要注销账户吗?")) {
+		removeCookie("gitee_Token"); //清空登录缓存
+		tokenPara = null; //清空登录缓存
+		canOpenSave = false; //不可打开存档框
+		$(".savePop").hide(); //关闭存档框
+		alert("注销成功！");
+		location.reload()
+		}
+		} else {
+		jumpLogin();
+		}
+		})
 		// function createIssue(issueName, issueContent, issueLabels) {
 		// 	console.log("clicked openIssue" + issueLabels);
 		// 	createIssue(issueName, issueContent, null);
@@ -733,21 +733,21 @@
 		event.preventDefault();
 		});
 
-//		if (getCookie("gitee_Token") != "notfound") {
-//		$(".login-info")
-//		.removeClass('reg_log_link').text("加载中...")
-//		getGitUser(function(res) {
-//		localStorage.setItem("user", JSON.stringify(res))
-//		console.log('res', res)
-//		$(".login-info")
-//		.removeClass('reg_log_link')
-//		.html(`
-//		<div class="avatar-wrapper">
-//		<img width="50" height="50" src="${res.avatar_url}" />
-//		<div style="margin-left: 10px">${res.name}</div>
-//		</div>`)
-//		} )
-//		}
+		if (getCookie("gitee_Token") != "notfound") {
+		$(".login-info")
+		.removeClass('reg_log_link').text("加载中...")
+		getGitUser(function(res) {
+		localStorage.setItem("user", JSON.stringify(res))
+		console.log('res', res)
+		$(".login-info")
+		.removeClass('reg_log_link')
+		.html(`
+		<div class="avatar-wrapper">
+		<img width="50" height="50" src="${res.avatar_url}" />
+		<div style="margin-left: 10px">${res.name}</div>
+		</div>`)
+		} )
+		}
 		}
 		$("body").click(function (){
 		$(".savePop").hide();
