@@ -27,7 +27,7 @@
 	<script>
 		$("#submitMarker").click(function() {
 			for (var j = 0; j < 50; j++) {
-				for (var i = 0; i < 1200; i++) {
+				for (var i = 0; i < 1400; i++) {
 					var key = j + "_" + i;
 					localStorage.setItem(key, "");
 				}
@@ -40,11 +40,7 @@
 		})
 		$("#enterIndex").click(function() {
 		    window.event.returnValue = false;
-			window.location.href = './js/index.html';
-		})
-		$("#enterIndex2").click(function() {
-		    window.event.returnValue = false;
-			window.location.href = './js/index_old.html';
+			window.location.href = './index.html';
 		})
 	</script>
 </body>

@@ -12,7 +12,7 @@ var map = L.map("map", {
     zoomControl: false
 });
 L.control.attribution({
-    prefix: "<a href='https://leafletjs.com/'>米游社空荧酒馆</a>"
+    prefix: "<a href='https://leafletjs.com/'>ç±³æ¸¸ç¤¾ç©ºè§é…’é¦†</a>"
 }).addTo(map);
 L.control.zoom({
     zoomInTitle: '+',
@@ -449,47 +449,47 @@ L.geoJSON(JS_ZWCLR_LY, {
 }).addTo(Layer_ZWCLR_LY);
 
 var overlays = {
-    "<span class='ST-OPT map-opts'>风神瞳</span>": Layer_FST,
-    "<span class='ST-OPT map-opts'>岩神瞳</span>": Layer_YST,
-    "<span class='DLK-OPT map-opts'>蒙德</span>": Layer_DLY_MD,
-    "<span class='DLK-OPT map-opts'>璃月</span>": Layer_DLY_LY,
-    "<span class='KW-LY-OPT map-opts'>水晶矿</span>": Layer_SJK_LY,
-    "<span class='KW-LY-OPT map-opts'>白铁矿</span>": Layer_BTK_LY,
-    "<span class='KW-MD-OPT map-opts'>水晶矿</span>": Layer_SJK_MD,
-    "<span class='KW-MD-OPT map-opts'>白铁矿</span>": Layer_BTK_MD,
-    "<span class='CJW-OPT map-opts'>绝云椒椒</span>": Layer_JYJJ,
-    "<span class='CJW-OPT map-opts'>霓裳花</span>": Layer_NSH,
-    "<span class='CJW-OPT map-opts'>琉璃百合</span>": Layer_LLBH,
-    "<span class='CJW-OPT map-opts'>夜泊石</span>": Layer_YPS,
-    "<span class='CJW-OPT map-opts'>石珀</span>": Layer_SP,
-    "<span class='CJW-MD-OPT map-opts'>钩钩果</span>": Layer_GGG,
-    "<span class='CJW-MD-OPT map-opts'>嘟嘟莲</span>": Layer_DDL,
-    "<span class='CJW-MD-OPT map-opts'>落落梅</span>": Layer_LLM,
-    "<span class='CJW-MD-OPT map-opts'>塞西莉亚花</span>": Layer_SXLYH,
-    "<span class='CJW-MD-OPT map-opts'>慕风蘑菇</span>": Layer_MFMG,
-    "<span class='CJW-MD-OPT map-opts'>风车菊</span>": Layer_FCJ,
-    "<span class='CJW-MD-OPT map-opts'>蒲公英籽</span>": Layer_PGYZ,
-    "<span class='JYG-LY-OPT map-opts'>遗迹守卫</span>": Layer_YJSW_LY,
-    "<span class='JYG-LY-OPT map-opts'>遗迹猎者</span>": Layer_YJLZ_LY,
-    "<span class='JYG-LY-OPT map-opts'>大型丘丘人</span>": Layer_DXQQR_LY,
-    "<span class='JYG-LY-OPT map-opts'>深渊法师</span>": Layer_SYFS_LY,
-    "<span class='JYG-LY-OPT map-opts'>债务处理人</span>": Layer_ZWCLR_LY,
-    "<span class='JYG-LY-OPT map-opts'>雷莹术士</span>": Layer_LYSS_LY,
+    "<span class='ST-OPT map-opts'>é£Žç¥žçž³</span>": Layer_FST,
+    "<span class='ST-OPT map-opts'>å²©ç¥žçž³</span>": Layer_YST,
+    "<span class='DLK-OPT map-opts'>è’™å¾·</span>": Layer_DLY_MD,
+    "<span class='DLK-OPT map-opts'>ç’ƒæœˆ</span>": Layer_DLY_LY,
+    "<span class='KW-LY-OPT map-opts'>æ°´æ™¶çŸ¿</span>": Layer_SJK_LY,
+    "<span class='KW-LY-OPT map-opts'>ç™½é“çŸ¿</span>": Layer_BTK_LY,
+    "<span class='KW-MD-OPT map-opts'>æ°´æ™¶çŸ¿</span>": Layer_SJK_MD,
+    "<span class='KW-MD-OPT map-opts'>ç™½é“çŸ¿</span>": Layer_BTK_MD,
+    "<span class='CJW-OPT map-opts'>ç»äº‘æ¤’æ¤’</span>": Layer_JYJJ,
+    "<span class='CJW-OPT map-opts'>éœ“è£³èŠ±</span>": Layer_NSH,
+    "<span class='CJW-OPT map-opts'>ç‰ç’ƒç™¾åˆ</span>": Layer_LLBH,
+    "<span class='CJW-OPT map-opts'>å¤œæ³ŠçŸ³</span>": Layer_YPS,
+    "<span class='CJW-OPT map-opts'>çŸ³ç€</span>": Layer_SP,
+    "<span class='CJW-MD-OPT map-opts'>é’©é’©æžœ</span>": Layer_GGG,
+    "<span class='CJW-MD-OPT map-opts'>å˜Ÿå˜ŸèŽ²</span>": Layer_DDL,
+    "<span class='CJW-MD-OPT map-opts'>è½è½æ¢…</span>": Layer_LLM,
+    "<span class='CJW-MD-OPT map-opts'>å¡žè¥¿èŽ‰äºšèŠ±</span>": Layer_SXLYH,
+    "<span class='CJW-MD-OPT map-opts'>æ…•é£Žè˜‘è‡</span>": Layer_MFMG,
+    "<span class='CJW-MD-OPT map-opts'>é£Žè½¦èŠ</span>": Layer_FCJ,
+    "<span class='CJW-MD-OPT map-opts'>è’²å…¬è‹±ç±½</span>": Layer_PGYZ,
+    "<span class='JYG-LY-OPT map-opts'>é—è¿¹å®ˆå«</span>": Layer_YJSW_LY,
+    "<span class='JYG-LY-OPT map-opts'>é—è¿¹çŒŽè€…</span>": Layer_YJLZ_LY,
+    "<span class='JYG-LY-OPT map-opts'>å¤§åž‹ä¸˜ä¸˜äºº</span>": Layer_DXQQR_LY,
+    "<span class='JYG-LY-OPT map-opts'>æ·±æ¸Šæ³•å¸ˆ</span>": Layer_SYFS_LY,
+    "<span class='JYG-LY-OPT map-opts'>å€ºåŠ¡å¤„ç†äºº</span>": Layer_ZWCLR_LY,
+    "<span class='JYG-LY-OPT map-opts'>é›·èŽ¹æœ¯å£«</span>": Layer_LYSS_LY,
 };
 
 L.control.layers(null, overlays).addTo(map);
-$(".leaflet-control-layers-overlays label").eq(0).before('<a class="ST-OPT assortType">神瞳</a>');
-$(".leaflet-control-layers-overlays label").eq(2).before('<a class="DLK-OPT assortType">地灵龛</a>');
-$(".leaflet-control-layers-overlays label").eq(4).before('<a class="KW-LY-OPT assortType">矿物——璃月</a>');
-$(".leaflet-control-layers-overlays label").eq(6).before('<a class="KW-MD-OPT assortType">矿物——蒙德</a>');
-$(".leaflet-control-layers-overlays label").eq(8).before('<a class="CJW-OPT assortType">采集物——璃月</a>');
-$(".leaflet-control-layers-overlays label").eq(13).before('<a class="CJW-MD-OPT assortType">采集物——蒙德</a>');
-$(".leaflet-control-layers-overlays label").eq(20).before('<a class="JYG-LY-OPT assortType">精英怪——璃月</a>');
+$(".leaflet-control-layers-overlays label").eq(0).before('<a class="ST-OPT assortType">ç¥žçž³</a>');
+$(".leaflet-control-layers-overlays label").eq(2).before('<a class="DLK-OPT assortType">åœ°çµé¾›</a>');
+$(".leaflet-control-layers-overlays label").eq(4).before('<a class="KW-LY-OPT assortType">çŸ¿ç‰©â€”â€”ç’ƒæœˆ</a>');
+$(".leaflet-control-layers-overlays label").eq(6).before('<a class="KW-MD-OPT assortType">çŸ¿ç‰©â€”â€”è’™å¾·</a>');
+$(".leaflet-control-layers-overlays label").eq(8).before('<a class="CJW-OPT assortType">é‡‡é›†ç‰©â€”â€”ç’ƒæœˆ</a>');
+$(".leaflet-control-layers-overlays label").eq(13).before('<a class="CJW-MD-OPT assortType">é‡‡é›†ç‰©â€”â€”è’™å¾·</a>');
+$(".leaflet-control-layers-overlays label").eq(20).before('<a class="JYG-LY-OPT assortType">ç²¾è‹±æ€ªâ€”â€”ç’ƒæœˆ</a>');
 map.on('click', function (e) {
     console.log(e.latlng);
 });
 
-//给所有图例查找的label标签添加类
+//ç»™æ‰€æœ‰å›¾ä¾‹æŸ¥æ‰¾çš„labelæ ‡ç­¾æ·»åŠ ç±»
 
 for (let i = 0; i < $(".leaflet-control-layers-overlays label").length; i++) {
     if ($(`.leaflet-control-layers-overlays label:eq(${i}) div span span`).hasClass("ST-OPT") == true) {
@@ -518,7 +518,7 @@ for (let i = 0; i < $(".leaflet-control-layers-overlays label").length; i++) {
 
 $(".leaflet-control-layers-overlays").wrapInner('<ul  id="demo-list"/>')
 $(".leaflet-control-layers-overlays").prepend('<div class="jquery-accordion-menu-header" id="form"></div>');
-$(".leaflet-control-layers-overlays").append('<div class="jquery-accordion-menu-footer"><a href="https://bbs.mihoyo.com/ys/accountCenter/postList?id=5284717">空荧酒馆@A8</a></div>');
+$(".leaflet-control-layers-overlays").append('<div class="jquery-accordion-menu-footer"><a href="https://bbs.mihoyo.com/ys/accountCenter/postList?id=5284717">ç©ºè§é…’é¦†@A8</a></div>');
 $(".leaflet-control-layers-overlays").wrapInner('<div class="htmleaf-container"/><form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off"/><div id="jquery-accordion-menu" class="jquery-accordion-menu black"/>')
 
 $(".leaflet-control-layers-overlays label").wrapInner('<li/><a/>');
