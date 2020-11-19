@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GenshinMap(1)", ".", "{BF8D3B34-4556-47E6-ABE7-E3CAAE358A2C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54592"
+		Debug.AspNetCompiler.PhysicalPath = "..\GenshinMap\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54592\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54592"
+		Release.AspNetCompiler.PhysicalPath = "..\GenshinMap\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54592\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54592"
+		SlnRelativePath = "..\GenshinMap\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF8D3B34-4556-47E6-ABE7-E3CAAE358A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8D3B34-4556-47E6-ABE7-E3CAAE358A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F838BBB0-9A41-48B8-91E6-154591B7DCD4}
+	EndGlobalSection
+EndGlobal
